@@ -1,0 +1,57 @@
+<html>
+<head>
+<link rel='stylesheet' href='/css/main.css'/>
+<script src='/scripts/papaparse.js'></script>
+<script src='/scripts/jquery-2.1.1.min.js'></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50379802-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<div id="wrapper">
+<div id="imgs">
+    <div class="button" id="kevin"></div>
+    <div class="button" id="gary"></div>
+    <div class="button" id="jonathan"></div>
+    <div class="button" id="cedric"></div>
+    <div class="button" id="andrea"></div>
+    <div class="button" id="allie"></div>
+    <div class="button" id="nemanja"></div>
+    <div class="button" id="roberto"></div>
+    <div class="button" id="bob"></div>
+    <div class="button" id="jeronimo"></div>
+    <div class="button" id="sebastian"></div>
+    <div class="button" id="client"></div>
+</div>
+
+<footer>
+  <div id="about">
+    <p>
+    This was a quick project by 
+    <a href="https://twitter.com/SurrealAnalysis">Kevin Greene</a>, 
+    inspired by a <a href="https://thestrangeloop.com/">Strangeloop</a> talk by <a href="https://twitter.com/SuperSGP">Sarah Groff-Palermo</a>.
+    </p>
+    <p>
+    In this example I pulled the HipChat logs of 
+    <a href="http://spantree.net">Spantree</a>
+    and processed how often people talk. Each time a bubble lights up, it represents someone sending a chat message. My main goal was to get a small insight into conversations and flow of messages. Each bubble represents a different person, except for the lower right, which is all people not actively employed by Spantree (clients / friends).
+    </p>
+    <p>
+    Time is calculated logarithmically, so there aren't long boring periods. Currently the entire thing takes about 1000 seconds, so strap in, or leave it up on another monitor if you are interested in seeing it to the finish.
+    </p>
+    <p>
+      Available on <a href="https://github.com/KevinGreene/hipchat-visualizations">GitHub</a>
+    </p>
+  </div>
+</div>
+</footer>
+<script src='/scripts/main.js'></script>
+</body>
+</html>
